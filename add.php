@@ -8,17 +8,13 @@ $objReader = PHPExcel_IOFactory::createReader('Excel2007');
 
 //we load the file that we want to read
 
-$objPHPExcel = $objReader->load("data.xlsx");
+$objPHPExcel = $objReader->load("Template.xlsx");
 
 //we change the file
 
 $objPHPExcel->getActiveSheet()
-->setCellValue('E1','EEEEEEEEE')
-->setCellValue('A2','DDDDDDDDDDDD')
-->setCellValue('E3','CCCCCCCCC')
-->setCellValue('E4','BBBBBBBBBB')
-->setCellValue('E5','AAAAAAAAAAAAA')
-->setCellValue('E29','MaitrePylos');
+->setCellValue('F17','EEEEEEEEE')
+->setCellValue('Q17','DDDDDDDDDDDD');
 
 
 //we create a new file
