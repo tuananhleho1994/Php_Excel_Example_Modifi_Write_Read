@@ -58,4 +58,4 @@ $objPHPExcel1->addExternalSheet($objPHPExcel3->getActiveSheet());
 $objPHPExcelWriter = PHPExcel_IOFactory::createWriter($objPHPExcel1,$outputFileType);
 $objPHPExcelWriter->save($outputFileName);
 ?>
-<a href="outputData.xlsx">Download file</a>
+<a href="http://localhost/Php_Excel_Example_Modifi_Write_Read/outputData.xlsx">Download file</a>
